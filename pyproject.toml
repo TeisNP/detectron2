@@ -6,7 +6,7 @@ authors = ["teisnp <teis.n.p@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.12"
+python = ">=3.9,<3.13"
 docutils = "0.16"
 sphinx = "3.2.0"
 recommonmark = "0.6.0"
