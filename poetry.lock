@@ -441,12 +441,13 @@ files = [
 
 [[package]]
 name = "fvcore"
-version = "0.1.6"
+version = "0.1.5.post20221221"
 description = "Collection of common code shared among different research projects in FAIR computer vision team"
 optional = false
 python-versions = ">=3.6"
-files = []
-develop = false
+files = [
+    {file = "fvcore-0.1.5.post20221221.tar.gz", hash = "sha256:f2fb0bb90572ae651c11c78e20493ed19b2240550a7e4bbb2d6de87bdd037860"},
+]
 
 [package.dependencies]
 iopath = ">=0.1.7"
@@ -460,12 +461,6 @@ yacs = ">=0.1.6"
 
 [package.extras]
 all = ["shapely"]
-
-[package.source]
-type = "git"
-url = "https://github.com/facebookresearch/fvcore.git"
-reference = "main"
-resolved_reference = "9d683aae73fb899dd35d6cf6720e5ef567761c57"
 
 [[package]]
 name = "huggingface-hub"
@@ -1975,4 +1970,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "02b6a33df04b9a99cced26c0b2daad4aa2493c64fdffa35bb4e507c71a462704"
+content-hash = "74209e177396147a67170d62159242713b5f86b33aeeaac8c037ab6a024c208f"
