@@ -553,21 +553,17 @@ testing = ["pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)",
 
 [[package]]
 name = "iopath"
-version = "0.1.10"
+version = "0.1.9"
 description = "A library for providing I/O abstraction."
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "iopath-0.1.10.tar.gz", hash = "sha256:3311c16a4d9137223e20f141655759933e1eda24f8bff166af834af3c645ef01"},
+    {file = "iopath-0.1.9-py3-none-any.whl", hash = "sha256:9058ac24f0328decdf8dbe209b33074b8702a3c4d9ba2f7801d46cb61a880b6e"},
 ]
 
 [package.dependencies]
 portalocker = "*"
 tqdm = "*"
-typing_extensions = "*"
-
-[package.extras]
-aws = ["boto3"]
 
 [[package]]
 name = "jinja2"
@@ -1970,4 +1966,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "74209e177396147a67170d62159242713b5f86b33aeeaac8c037ab6a024c208f"
+content-hash = "5186c124647e4cd0965c68e23fb99213a25da3c3341648d9c7189682a55bf448"
